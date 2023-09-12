@@ -1,10 +1,8 @@
 import React from 'react';
-import {
-	Link,
-	Outlet,
-	useLocation,
-	useNavigate,
-} from 'react-router-dom';
+import { Link, Outlet, useLocation, useNavigate, } from 'react-router-dom';
+import Logo from './img/LOGO.png'
+import MangaASD from './img/MangaASD.png'
+import "./Navbar.css"
 
 export const Navbar = () => {
 	const { state } = useLocation();
@@ -22,7 +20,10 @@ export const Navbar = () => {
 		<>
 			<header>
 				<h1>
-					<Link to='/'>Logo</Link>
+					<a className='Logo' href="/">
+						<img  src={Logo} alt="" />
+						<img src={MangaASD} alt="" className="MangaASD" />
+					</a>
 				</h1>
 
 				{state?.logged ? (
@@ -39,7 +40,6 @@ export const Navbar = () => {
 					</nav>
 				)}
 			</header>
-
 			<Outlet />
 		</>
 	);

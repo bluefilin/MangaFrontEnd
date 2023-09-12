@@ -1,0 +1,14 @@
+.Logo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.MangaASD{
+    height: 37px;
+    width: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 10px;
+}
