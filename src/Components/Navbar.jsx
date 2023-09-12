@@ -35,8 +35,10 @@ export const Navbar = () => {
 					</div>
 				) : (
 					<nav>
-						<Link to='/login'>Iniciar sesión</Link>
-						<Link to='/register'>Registrarse</Link>
+						<Link to='/login'>Iniciar sesion</Link>
+						<a href="/register">
+							<button className='Registrarse'>Registrarse</button>
+						</a>
 					</nav>
 				)}
 			</header>

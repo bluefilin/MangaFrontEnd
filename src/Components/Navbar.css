@@ -12,3 +12,17 @@
     align-content: center;
     margin-top: 10px;
 }
+button.Registrarse{
+        background: rgb(0, 0, 0);
+        color: #d9dad9;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        transition-duration: 0.4s; 
+        border:none;
+        border-radius: 5px;
+        padding: 5px 5px;
+        margin-right: 10px;
+}
