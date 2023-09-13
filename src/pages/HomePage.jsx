@@ -97,7 +97,7 @@ export const HomePage = () => {
             }}
           />
           <img
-            src="https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            src="https://i.pinimg.com/564x/63/7c/f5/637cf5405adaae194509e47a0fb4caa2.jpg"
             style={{
               display: 'block',
               height: '660px',
@@ -106,10 +106,10 @@ export const HomePage = () => {
             }}
           />
           <img
-            src="https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            src="https://e1.pxfuel.com/desktop-wallpaper/45/548/desktop-wallpaper-one-piece-1920x1080-group-wanted-poster-one-piece.jpg"
             style={{
               display: 'block',
-              height: '100%',
+              height: '660px',
               margin: 'auto',
               width: '100%'
             }}
@@ -118,9 +118,6 @@ export const HomePage = () => {
 
       </div>
       <div>
-        <div className="sction-claro">
-          <h1>hola</h1>
-        </div>
         <h1 className="titulo">Productos</h1>
         <div className="productos">
           <div className="producto">
@@ -132,8 +129,98 @@ export const HomePage = () => {
             <div className="producto_footer">
               <h1 className="titulo"> Titulo </h1>
               <p className="categoria"> Descripcion </p>
-              <h2 className="descripcion">Doraemon es un robot que viene del futuro para ayudar a Nobita Nobi en el día a día para que pueda tener un futuro mejor.</h2>
-              <p className="price"> $ </p>
+              <h2 className="descripcion">Descripcion</h2>
+              <p className="price"> Precio </p>
+            </div>
+            <div className="buttom">
+              <button className="btn">
+                Añadir al carrito
+              </button>
+            </div>
+          </div>
+          <div className="producto">
+            <a href="#">
+              <div className="producto_img">
+                <img src={Doraemon} alt="" />
+              </div>
+            </a>
+            <div className="producto_footer">
+              <h1 className="titulo"> Titulo </h1>
+              <p className="categoria"> Descripcion </p>
+              <h2 className="descripcion">Descripcion</h2>
+              <p className="price"> Precio </p>
+            </div>
+            <div className="buttom">
+              <button className="btn">
+                Añadir al carrito
+              </button>
+            </div>
+          </div>
+          <div className="producto">
+            <a href="#">
+              <div className="producto_img">
+                <img src={Doraemon} alt="" />
+              </div>
+            </a>
+            <div className="producto_footer">
+              <h1 className="titulo"> Titulo </h1>
+              <p className="categoria"> Descripcion </p>
+              <h2 className="descripcion">Descripcion</h2>
+              <p className="price"> Precio </p>
+            </div>
+            <div className="buttom">
+              <button className="btn">
+                Añadir al carrito
+              </button>
+            </div>
+          </div>
+          <div className="producto">
+            <a href="#">
+              <div className="producto_img">
+                <img src={Doraemon} alt="" />
+              </div>
+            </a>
+            <div className="producto_footer">
+              <h1 className="titulo"> Titulo </h1>
+              <p className="categoria"> Descripcion </p>
+              <h2 className="descripcion">Descripcion</h2>
+              <p className="price"> Precio </p>
+            </div>
+            <div className="buttom">
+              <button className="btn">
+                Añadir al carrito
+              </button>
+            </div>
+          </div>
+          <div className="producto">
+            <a href="#">
+              <div className="producto_img">
+                <img src={Doraemon} alt="" />
+              </div>
+            </a>
+            <div className="producto_footer">
+              <h1 className="titulo"> Titulo </h1>
+              <p className="categoria"> Descripcion </p>
+              <h2 className="descripcion">Descripcion</h2>
+              <p className="price"> Precio </p>
+            </div>
+            <div className="buttom">
+              <button className="btn">
+                Añadir al carrito
+              </button>
+            </div>
+          </div>
+          <div className="producto">
+            <a href="#">
+              <div className="producto_img">
+                <img src={Doraemon} alt="" />
+              </div>
+            </a>
+            <div className="producto_footer">
+              <h1 className="titulo"> Titulo </h1>
+              <p className="categoria"> Descripcion </p>
+              <h2 className="descripcion">Descripcion</h2>
+              <p className="price"> Precio </p>
             </div>
             <div className="buttom">
               <button className="btn">
