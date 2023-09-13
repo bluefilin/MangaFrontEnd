@@ -14,6 +14,7 @@ export const LoginPage = () => {
 
 	const onLogin = e => {
 		e.preventDefault();
+		console.log(name, email, password)
 
 		navigate('/dashboard', {
 			replace: true,
