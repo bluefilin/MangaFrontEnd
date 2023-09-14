@@ -11,7 +11,7 @@
     color: black;
 }
 
-.productos-home {
+.productos {
     margin-left: 10px;
     padding: 1rem 2rem;
     display: grid;
@@ -19,12 +19,11 @@
     gap: 1rem 1rem;
 }
 
-.producto-home {
+.producto {
     display: flex;
     flex-direction: column;
     border: #d9dad9 1px solid;
     border-radius: 5%;
-
 }
 
 .producto.hover {
