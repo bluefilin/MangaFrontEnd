@@ -1,9 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from '../hook/useForm';
+import { useState } from 'react';
 
 export const LoginPage = () => {
 	const navigate = useNavigate();
+	
 
 	const { name, email, password, onInputChange, onResetForm } =
 		useForm({
@@ -14,7 +16,6 @@ export const LoginPage = () => {
 
 	const onLogin = e => {
 		e.preventDefault();
-		console.log(name, email, password)
 
 		navigate('/dashboard', {
 			replace: true,

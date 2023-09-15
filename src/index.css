@@ -12,12 +12,11 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 300px;
+	padding: 20px;
 	padding-top: 10px;
 	padding-bottom: 0;
 	color: #fff;
 	background-color: #00000078;
-
 }
 
 h1 a {
@@ -35,7 +34,10 @@ nav,
 nav a {
 	text-decoration: none;
 	color: #fff;
-}
+	text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    font-weight: bold;}
 
 .username {
 	color: #fff;

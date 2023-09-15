@@ -161,7 +161,6 @@ export const HomePage = () => {
               </button>
             </div>
           </div>
-          z
         </div>
       </div>
     </>

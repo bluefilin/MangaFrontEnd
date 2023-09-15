@@ -22,7 +22,7 @@ export const DashboardPage = () => {
         <div className="producto">
           <a href="#">
             <div className="producto_img">
-              <img src={Doraemon} alt="" />
+              <img src={d.imagen} alt="" />
             </div>
           </a>
           <div className="producto_footer">
