@@ -1,1 +1,9 @@
-input-group
+.input-group{
+    width: 100%;
+}
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    width: 20%;
+}

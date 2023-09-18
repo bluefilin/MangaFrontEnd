@@ -28,7 +28,7 @@ export const Navbar = () => {
 
 				{state?.logged ? (
 					<div className='user'>
-						<span className='username'>{state?.name}</span>
+						<span className='username'>{state?.nombre}</span>
 						<button className='btn-logout' onClick={onLogout}>
 							Cerrar sesión
 						</button>
